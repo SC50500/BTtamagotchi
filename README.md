@@ -1,5 +1,6 @@
 # ARIRANG
-![alt text](image.png)
+<img width="426" height="682" alt="image" src="https://github.com/user-attachments/assets/dcb14b7b-2751-4cd3-b45c-cccd822a0997" />
+
 
 # Description
 A 4-button tamagotchi remix based on global pop band BTS's new album "ARIRANG" featuring a speaker in place of a buzzer and unique tamagotchi dancing emoticons. Instead of indicating changes in the pet's state using buzzes, the ARIRANG tamagotchi uses a sequence of notes from the speaker to play a familiar tune. What makes this tamagotchi design unique is that it uses easily accessible parts and produces sound from the speaker without storage of music on a micro-SD card or similar component. Music is played through using the tone() function in the Arduino IDE. 
