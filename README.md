@@ -10,6 +10,12 @@ The basic eat, sleep, and play functions of your average tamagotchi are still pr
 
 For more information about what a tamagotchi is and how to use it, check out [this guide](https://tamagotchi.fandom.com/wiki/Main_Page) on what a tamagotchi is. 
 
+# Inspiration
+As someone who has been a fan of BTS since they were 7 years old, I've dreamed of completing a project that allowed me to take creative liberty in designing a product that reflected both my interest in KPOP and engineering.
+The theme of the tamagotchi was centered around "ARIRANG", BTS's newest album that was recently released this year. After being inactive as a band for over 3 years, this was the long-awaited "comeback" album that myself and other long-time fans were excited to listen to.
+More importantly, this album holds a different meaning to the fandom, ARMY, and the group; It is meant to represent a return to the roots from which BTS first came.
+So, in honor of their return from their hiatus, I decided to dedicate my first hardware project to them -- A band whose songs motivated me throughout all of the obstacles I overcame to ship this project. 
+
 # Features
 * **0.96" OLED Display (128 x 64):** Black and white, yes, but perfect for Van, a character that is monochromatic ;3
 * **INGHAi Speaker:** A small, but powerful speaker with a simple adapter that allows for music from Arduino IDE or bluetooth to be played. 
@@ -58,24 +64,44 @@ Below are all of the screenshots of my design (plus screenshots by layer and an 
 | *ALIEXPRESS SHIPPING & TAXES* |  |  |  | *$4.09* |  | ONLY shipping fees and taxes for all products purchased through AliExpress |
 | **TOTAL** |  |  |  | **$53.80** |  |  |
 
-# Inspiration
-As someone who has been a fan of BTS since they were 7 years old, I've dreamed of completing a project that allowed me to take creative liberty in designing a product that reflected both my interest in KPOP and engineering.
-The theme of the tamagotchi was centered around "ARIRANG", BTS's newest album that was recently released this year. After being inactive as a band for over 3 years, this was the long-awaited "comeback" album that myself and other long-time fans were excited to listen to.
-More importantly, this album holds a different meaning to the fandom, ARMY, and the group; It is meant to represent a return to the roots from which BTS first came.
-So, in honor of their return from their hiatus, I decided to dedicate my first hardware project to them -- A band whose songs motivated me throughout all of the obstacles I overcame to ship this project. 
+# Build & Assembly
+
+## Required Tools
+
+- Soldering iron
+- Solder
+- Tweezers
+- Small screwdriver for M3 screws
+- Computer with USB port
+- 3D printer
+
+## Assembly Steps
+
+1. Solder all the THT diodes onto the PCB
+2. Solder the LEDs to the PCB. I rotated the direction of the bottom row by accident so refer to the PCB layout if the orientation is confusing at all
+3. Solder the microcontroller, OLED display, and switches to the PCB
+4. To assemble the case, place the PCB into the bottom shell
+5. Attach it to the top shell
+6. Secure with M3 screws.
+7. Since this build uses the ESP32-C3, I will use the ESPRESSIF Arduino IDE Extension to install firmware
+8. Plug in the ESP32-C3 to your computer with a USB cable
+9. Select the correct board and port in the Arduino IDE, then upload the firmware
+10. Modify the code if you'd like to change Van's animations or tune selection
+11. Test your OLED (check I2C, SDA/SCL pins, etc) and your speaker
+12. Once everything works, you will have a fully functional Van!
 
 # Credits & Acknowledgements
 
 Credits to BTS's new "ARIRANG" album cover and the BTS ARMY Logo for the hardware design inspiration. 
 
-# Libraries & Extensions Used
+## Libraries & Extensions Used
 
 Libraries and extensions used in firmware
 * ESPRESSIF Arduino IDE Extension
 * Adafruit SSD1306
 * Adafruit GFX Library
 
-# Music Attribution & Copyright Disclaimer
+## Music Attribution & Copyright Disclaimer
 The audio files included in this repository are piano covers intended for non-commercial entertainment purposes only.
 
 *    *Original Composition:* "Crystal Snow", "Spring Day", and "Butterfly", intitially performed by BTS, copyrighted by Big Hit Music / HYBE. 
