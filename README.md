@@ -1,5 +1,4 @@
 # ARIRANG
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/873e574f-cb1e-4d55-a048-1f06cdc37708" />
 
 # Description
 A 4-button tamagotchi remix based on global pop band BTS's new album "ARIRANG" featuring a speaker in place of a buzzer and unique tamagotchi dancing emoticons. Instead of indicating changes in the pet's state using buzzes, the ARIRANG tamagotchi uses a sequence of notes from the speaker to play a familiar tune. What makes this tamagotchi design unique is that it uses easily accessible parts and produces sound from the speaker without storage of music on a micro-SD card or similar component. Music is played through using the tone() function in the Arduino IDE. 
@@ -39,6 +38,24 @@ Below are all of the screenshots of my design (plus screenshots by layer and an 
 <img width="677" height="452" alt="image" src="https://github.com/user-attachments/assets/ef4b50dd-2e93-423e-a367-4ab49d9c8e67" />
 <img width="885" height="621" alt="image" src="https://github.com/user-attachments/assets/b7c1bb36-1311-443d-bd70-36c0b3df2845" />
 
+# Bill of Materials
+
+| Item | Unit Price | Quantity Used | Quantity Purchased | Total Price | Source | Notes |
+|---|---|---|---|---|---|---|
+| Seeed Studio XIAO ESP32-C3 | $9.90 | 1 | 1 | $9.90 | [Link](https://www.amazon.com/dp/B0B94JZ2YF?lv=shuf&hvlocphy=97766&linkCode=df0&hvnetw=o&hvadid=80195839596273&hvbmt=be&hvdev=c&hvocijid=11735809307987410767-B0DRNSV5CS-&hvqmt=e&hvexpln=0&tag=bingshoppinga-20&hvtargid=pla-4583795321231844&channelId=69&ref_=asc_df_B0DRNSV5CS&plpRedirect=mhFallback&th=1) | purchased with other items off Amazon; free shipping |
+| HS96L03W2C03 | $2.24 | 1 | 1 | $2.24 | [Link](https://www.lcsc.com/product-detail/C5248080.html?spm=wm.gwc.xh.0.cbm___wm.fly.ssl.gwc&lcsc_vid=EwNbXlIEQQMIXlYDTlYPAQdXEVhXXlMARARfUwdRRwAxVlNeRVFeVlBUTlBeXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVlWX1BfRE8GEwkK) | shipping not included |
+| INGHAi GSPK2307P-8R1W | $0.82 | 1 | 1 | $0.82 | [Link](https://www.lcsc.com/product-detail/Speakers_INGHAi-GSPK2307P-8R1W_C530531.html) | shipping not included |
+| PAM8302AAYCR | $9.37 | 1 | 1 | $9.37 | [Link](https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8302AAYCR/4033367?gclid=b27fbcf56e80137c3cb2d6c241cebef9&gclsrc=3p.ds&msclkid=b27fbcf56e80137c3cb2d6c241cebef9) | shipping included |
+| BZCN TSC016A04518A | $0.04 | 4 | 50 | $0.54 | [Link](https://www.lcsc.com/product-detail/C2888493.html?s_z=h_q_C2888493&globalKeyword=C2888493) | shipping not included |
+| UNIT 502030 D9 - 250mAh 3.7V 0.93Wh | $8.99 | 1 | 1 | $8.99 | [Link](https://www.amazon.com/dp/B08FD3V6TF?lv=shuf&channelId=520&plpRedirect=mhFallback) | shipping not included |
+| TAMAGOTCHI PCB | $2.00 | 1 | 5 | $2.00 | [Link](https://cart.jlcpcb.com/shopcart/cart/) | first PCB is $2.00; no shipping fee or taxes (Global standard line) |
+| M3 x 8mm Pozi Pan Head Screws | $0.09 | 2 | 20 | $0.99 | [Link](https://www.aliexpress.us/item/3256807955659503.html?spm=a2g0o.productlist.main.1.570fYl0xYl0xWq&algo_pvid=98fb9b49-47a3-4173-a920-562ea71ffb80) | not 1:1 to the attached CAD; but can still be used; shipping not included |
+| M2 x 8mm Pozi Pan Head Screws | $0.20 | 4 | 20 | $0.99 | [Link](https://www.aliexpress.us/item/3256807955659503.html?spm=a2g0o.productlist.main.1.570fYl0xYl0xWq&algo_pvid=98fb9b49-47a3-4173-a920-562ea71ffb80) | not 1:1 to the attached CAD; but can still be used; shipping not included |
+| *AMAZON SHIPPING & TAXES* |  |  |  | *$9.29* |  | ONLY shipping fees and taxes for all products purchased through Amazon |
+| *LCSC SHIPPING & TAXES* |  |  |  | *$10.65* |  | ONLY shipping fees and taxes for all products purchased through LCSC |
+| *ALIEXPRESS SHIPPING & TAXES* |  |  |  | *$4.09* |  | ONLY shipping fees and taxes for all products purchased through AliExpress |
+| **TOTAL** |  |  |  | **$53.80** |  |  |
+
 # Inspiration
 As someone who has been a fan of BTS since they were 7 years old, I've dreamed of completing a project that allowed me to take creative liberty in designing a product that reflected both my interest in KPOP and engineering.
 The theme of the tamagotchi was centered around "ARIRANG", BTS's newest album that was recently released this year. After being inactive as a band for over 3 years, this was the long-awaited "comeback" album that myself and other long-time fans were excited to listen to.
@@ -51,6 +68,7 @@ Credits to BTS's new "ARIRANG" album cover and the BTS ARMY Logo for the hardwar
 
 # Libraries & Extensions Used
 
+Libraries and extensions used in firmware
 * ESPRESSIF Arduino IDE Extension
 * Adafruit SSD1306
 * Adafruit GFX Library
