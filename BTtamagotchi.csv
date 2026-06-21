@@ -1,7 +1,0 @@
-Reference, Qty, Value, DNP, Exclude from BOM, Exclude from Board, Footprint, Datasheet
-BT1, 1, Battery_Cell, , , , Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical, 
-SPK1, 1, GSPK2307P-8R1W, , , , EasyEDA2KiCAD:SPK-TH_BD23.0-P10.00-D0.8-L-RD, https://lcsc.com/product-detail/Speakers_INGHAi-GSPK2307P-8R1W_C530531.html
-SW1,SW2,SW3,SW4, 4, SW_Push, , , , EasyEDA2KiCAD:SW-TH_4P-L4.5-W4.5-P3.00-LS4.8, 
-U1, 1, XIAO-ESP32-C3-SMD, , , , Seed Studio:XIAO-ESP32-C3-DIP-SMD, 
-U2, 1, HS96L03W2C03, , , , EasyEDA2KiCAD:OLED-TH_L27.8-W27.2-P2.54_C9900033791, https://www.lcsc.com/datasheet/C5248080.pdf
-U3, 1, PAM8302AAY, , , , Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm, https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
